@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> فيلمك | الصفحة الرئيسية
+    </title>
+
+<style>
+
+
+*{
+   
+   
+    transition: 0.5s;
+    font-family: sans-serif;
+
+
+}
+
+body{
+    
+    background: linear-gradient(#222,#111);
+    
+    background-size: 1400px 800px;
+    background-attachment: fixed;
+   
+
+}
+
+a{
+   
+    position: relative;
+    background: #444;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+  
+}
+
+
+a:hover{
+    letter-spacing: 0.25em;
+    background: rgb(71, 71, 255);
+    color: rgb(71, 71, 255);
+    box-shadow: 0 0 35px rgb(71, 71, 255);
+
+}
+
+a::before{
+
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+
+
+}
+
+a span{
+ 
+    position: relative;
+  
+
+
+}
+
+
+a i{
+    position: absolute;
+    inset: 0;
+    display: block ;
+    
+}
+
+a i::before{
+    content: '';
+    position: absolute;
+    left: 80%;
+    top: -3.5px ;
+    border: 2px solid  rgb(71, 71, 255);
+    background: #27282c;
+    width: 10px;
+    height: 5px;
+    transition: 0.5s;
+    transform: translateX(-50%);
+}
+
+a:hover i::before{
+
+    width: 20px;
+    left: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
+a i::after{
+    content: '';
+    position: absolute;
+    left: 20%;
+    bottom: -3.5px ;
+    background: #27282c;
+    border: 2px solid  rgb(71, 71, 255);
+    width: 10px;
+    height: 5px;
+    transition: 0.5s;
+    transform: translateX(-50%);
+}
+
+a:hover i::after{
+
+    width: 20px;
+    left: 80%;
+    
+
+}
+
+
+fieldset{
+    box-shadow: 0 10px 50px rgb(71, 71, 255);
+    border: rgb(71, 71, 255);
+    border-style: solid;
+    
+}
+
+legend{
+align-items: center;
+   color:  rgb(255, 255, 255);
+    border: rgb(71, 71, 255);
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+
+
+
+
+hr{
+    box-shadow: 0 0 10px  rgb(71, 71, 255);
+    border: 1px  rgb(71, 71, 255) solid;
+    
+}
+
+
+ img:hover{
+    border: 1px solid rgb(71, 71, 255);
+    box-shadow: 0 0 40px rgb(71, 71, 255);
+    height: 190px;
+    transition: 0.5s;
+}
+
+
+
+.فيلمك img{
+    margin: 0 -50px;
+   
+}
+
+.فيلمك img:hover{
+    height: 110px;
+    box-shadow: none;
+    border: none;
+    transition: 0.4s;
+    letter-spacing: 0.25em;
+}
+
+.فيلمك img::before{
+    transition: 0.4s;
+    position: absolute;
+}
+
+
+h2{
+    color: white;
+    margin: -0px;
+    
+    
+}
+
+
+.search input{
+width: 500px;
+height: 30px;
+border-radius: 9px;
+}
+
+.search :hover{
+    box-shadow: 0 0 30px rgb(78, 33, 240);
+    width: 550px;
+    transition: 0.5s;
+}
+
+
+
+
+
+.submit input{
+    width: 100px;
+    border-radius: 90px;
+}
+
+input{
+    background: #222;
+    border: 2px solid rgb(78, 33, 240);
+    color: white;
+    box-shadow: 0 0 10px rgb(78, 33, 240);
+}
+
+
+
+
+
+.submit input:hover{
+    box-shadow: 0 0 30px rgb(78, 33, 240);
+    width: 190px;
+
+    transition: 1s;
+    
+}
+
+</style>
+</head>
+<body>
+
+<center>
+
+    <div class="فيلمك">
+
+    <img src="2.png" height="100px">
+    
+    </div>
+<br>
+
+<a href="#" style="--clr:#le9bff" >  <span> Subscribe </span> <i></i> </a> <br><br><br>
+<a href="#" style="--clr:#le9bff" >  <span> English movie   </span> <i></i> </a><br><br><br>
+<a href="#" style="--clr:#le9bff" >  <span>  Arabic movie</span> <i></i> </a><br><br><br>
+<a href="#" style="--clr:#le9bff" >  <span>For you</span> <i></i> </a><br><br><br>
+
+
+
+
+
+
+<br>
+   
+<div class="search">
+<input type="search" name="search" id="search" placeholder="Search here..">
+</div>
+
+<br>
+<div class="submit">
+<input type="submit" value="search">
+</div>
+<br>
+
+    <h2> Your movie is here. </h2>
+
+<br>
+
+
+
+
+</center> 
+
+
+<br><br>
+
+
+
+
+
+<fieldset>
+    <legend>Arabic Movie : 1</legend>
+    <br>
+<div class="film1">
+    <img src="9.jpg" height="200px">
+    <img src="10.jpg" height="200px">
+    <img src="12.jpg" height="200px">
+    <img src="13.jpg" height="200px">
+    <img src="14.jpg" height="200px">
+    <img src="15.jpg" height="200px">
+    <img src="16.jpg" height="200px">
+    <img src="17.jpg" height="200px">
+   
+<br>
+    
+  </fieldset>
+
+
+
+<br><br>
+
+
+
+<fieldset>
+    <legend>Arabic Movie : 2</legend>
+    <br>
+    <img src="1.jpg" height="202px" >
+    <img src="2.jpg" height="202px">
+    <img src="3.jpg" height="202px">
+    <img src="4.jpg" height="202px">
+    <img src="5.jpg" height="202px">    
+    <img src="6.jpg" height="202px">
+    <img src="7.jpg" height="202px">
+    <img src="8.jpg" height="202px">
+    </div>
+    <br>
+
+
+</fieldset>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

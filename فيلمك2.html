@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فيلمك |
+        صفحة الدخول </title>
+
+<style>
+
+
+    
+*{
+   
+   
+  align-items: center;
+  font-family: sans-serif;
+
+
+}
+
+body{
+   
+   background: linear-gradient(#222,#111);
+   flex-direction: column;
+    gap: 30px;
+   background-size: 1400px 800px;
+   background-attachment: fixed;
+  
+
+}
+
+a{
+  
+   position: relative;
+   background: #444;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 15px;
+   letter-spacing: 0.1em;
+   padding: 10px 30px;
+   transition: 0.5s;
+ 
+}
+
+
+a:hover{
+   letter-spacing: 0.25em;
+   background: rgb(71, 71, 255);
+   color: rgb(71, 71, 255);
+   box-shadow: 0 0 35px rgb(71, 71, 255);
+
+}
+
+a::before{
+
+   content: '';
+   position: absolute;
+   inset: 2px;
+   background: #27282c;
+
+
+}
+
+a span{
+
+   position: relative;
+ 
+
+
+}
+
+
+a i{
+   position: absolute;
+   inset: 0;
+   display: block ;
+   
+}
+
+a i::before{
+   content: '';
+   position: absolute;
+   left: 80%;
+   top: -3.5px ;
+   border: 2px solid  rgb(71, 71, 255);
+   background: #27282c;
+   width: 10px;
+   height: 5px;
+   transition: 0.5s;
+   transform: translateX(-50%);
+}
+
+a:hover i::before{
+
+   width: 20px;
+   left: 20%;
+
+
+}
+
+
+a i::after{
+   content: '';
+   position: absolute;
+   left: 20%;
+   bottom: -3.5px ;
+   background: #27282c;
+   border: 2px solid  rgb(71, 71, 255);
+   width: 10px;
+   height: 5px;
+   transition: 0.5s;
+   transform: translateX(-50%);
+}
+
+a:hover i::after{
+
+   width: 20px;
+   left: 80%;
+   
+
+}
+
+
+
+.box{
+  
+    position: relative;
+    width: 250px;
+
+}
+
+.box input{
+
+    padding: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.25);
+    width: 100%;
+    background:#222;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+
+span{
+    margin: -38px 10px;
+    letter-spacing: 1px;
+}
+
+ 
+
+.box span{
+ 
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(225, 225, 225, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+
+.box input:nth-child(2) input:valid ~ span,
+.box input:nth-child(2) input:focus ~ span{
+
+background: #872cf0;
+color: white;
+border-radius: 3px;
+
+    
+}
+
+
+
+
+.box input:valid ~ span,
+.box input:focus ~ span
+{
+
+
+color: #872cf0;
+ transform: translateX(10px) translateY(-7px);
+font-size: 0.70em;
+padding: 0 10px;
+background:  #27282c;
+border-left: 1px solid #872cf0;
+border-right: 1px solid #872cf0;
+letter-spacing: 0.2em;
+}
+
+
+
+.box input:valid,
+.box input:focus{
+
+    border: 1px solid #872cf0;
+    box-shadow: 0 0 15px #872cf0;
+
+
+}
+
+
+
+</style>
+
+
+<link rel="shortcut icon" href="bb2.jpg">
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <center>
+      <br><br><br><br><br><br>
+<img src="2.png"  height="100px">
+
+<br><br><br>
+
+
+<div class="box">
+
+    <input type="text" required="required">
+    <span>Email</span>
+
+</div>
+
+
+<br>
+
+
+<div class="box">
+
+    <input type="password" required="required">
+    <span>Password</span>
+
+</div>
+
+
+
+<br><br>
+
+
+
+
+
+
+
+    <a href="فيلمك3.html" style="--clr:#le9bff" >  <span>   LOG IN </span> <i></i> </a>
+
+</center>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
